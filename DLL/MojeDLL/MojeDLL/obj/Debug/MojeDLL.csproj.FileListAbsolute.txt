@@ -1,0 +1,5 @@
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\DLL\MojeDLL\MojeDLL\obj\Debug\MojeDLL.csprojResolveAssemblyReference.cache
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\DLL\MojeDLL\MojeDLL\bin\Debug\MojeDLL.dll
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\DLL\MojeDLL\MojeDLL\bin\Debug\MojeDLL.pdb
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\DLL\MojeDLL\MojeDLL\obj\Debug\MojeDLL.dll
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\DLL\MojeDLL\MojeDLL\obj\Debug\MojeDLL.pdb

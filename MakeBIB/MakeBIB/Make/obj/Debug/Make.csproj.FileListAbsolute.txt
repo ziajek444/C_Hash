@@ -1,0 +1,8 @@
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\MakeBIB\MakeBIB\Make\bin\Debug\Make.exe.config
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\MakeBIB\MakeBIB\Make\bin\Debug\Make.exe
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\MakeBIB\MakeBIB\Make\bin\Debug\Make.pdb
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\MakeBIB\MakeBIB\Make\bin\Debug\MojeDLL.dll
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\MakeBIB\MakeBIB\Make\bin\Debug\MojeDLL.pdb
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\MakeBIB\MakeBIB\Make\obj\Debug\Make.csprojResolveAssemblyReference.cache
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\MakeBIB\MakeBIB\Make\obj\Debug\Make.exe
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\MakeBIB\MakeBIB\Make\obj\Debug\Make.pdb

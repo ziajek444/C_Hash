@@ -1,0 +1,6 @@
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\Console\TestyWKonsoloi\TestyWKonsoloi\bin\Debug\TestyWKonsoloi.exe.config
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\Console\TestyWKonsoloi\TestyWKonsoloi\bin\Debug\TestyWKonsoloi.exe
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\Console\TestyWKonsoloi\TestyWKonsoloi\bin\Debug\TestyWKonsoloi.pdb
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\Console\TestyWKonsoloi\TestyWKonsoloi\obj\Debug\TestyWKonsoloi.csprojResolveAssemblyReference.cache
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\Console\TestyWKonsoloi\TestyWKonsoloi\obj\Debug\TestyWKonsoloi.exe
+C:\Users\Marcin Ziajkowski\Desktop\Cszarp\Console\TestyWKonsoloi\TestyWKonsoloi\obj\Debug\TestyWKonsoloi.pdb
