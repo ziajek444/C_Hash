@@ -17,7 +17,7 @@ namespace MojeDLL
             string s_temp = "";
             foreach (char k in str.ToCharArray())
             {
-                if (!k.Equals(' ') && !k.Equals('\t') && !k.Equals('\n')) s_temp += k;
+                if (((int)k >= 48 && (int)k <= 57) || ((int)k >= 65 && (int)k <= 90) || ((int)k >= 97 && (int)k <= 122)) s_temp += k;//0-9 , A-Z , a-z ;
             }
             return s_temp;
         }

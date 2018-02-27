@@ -23,11 +23,53 @@ namespace WordFinder
         public Biblioteka(String name)//nazwą jest po prostu nazwa pliku .bib
         {
             this.Name = name;
-
+            SetBIB();
         }
 
         //metody zewnętrzne
-        public void SetBIB(string path)
+        
+
+        public string FindWords(String text_in)
+        {
+            
+            try
+            {
+                if (LengthWord[0] < LengthWord[1]) LengthWord.Reverse();
+            }
+            catch
+            {
+                System.Windows.MessageBox.Show("Biblioteka " + this.Name + "nie działa poprawnie.", "Mesage from Biblioteka.cs");
+            }
+            String text_out = text_in;
+            String text_temp = text_in;
+            String word_temp = "";
+            int offset = 0;//przesuniecie od pierwszego znaku tekstu
+            bool done = false;//wskazuje czy offset jest już na końcu i czy nie ma już zadnych znaków do przerobienia
+            bool FoundOne = false;//wskazuje czy znalazłem jakiś wyraz
+            bool Nothing = false;//wskazuje czy NIE znalazłem żadnego wyrazu.
+            text_out = text_in.ToLower();//zmniejszenie wsystkich znaków, Póżniej moge tutaj dodać coś zapamiętajującego wielkość znaków
+            while (done)
+            {
+                for (int j = 0; j < LengthWord.Count; j++)
+                {
+                    for (int i = 0; i < LengthWord[j]; i++)
+                    {
+                        if (text_temp.Length > LengthWord[0])
+                            word_temp += text_in[i];//wgrywamy wyraz
+                    }
+                }
+            }
+            
+            return text_out;
+        }
+
+        public string GetName()
+        {
+            return this.Name;
+        }
+
+        //metody do pracy wewnętrznej
+        private void SetBIB(string path)
         {
             StreamReader SR = new StreamReader(path);
 
@@ -62,7 +104,7 @@ namespace WordFinder
             SR.Close();
         }
 
-        public void SetBIB()
+        private void SetBIB()
         {
             StreamReader SR = new StreamReader(this.Name);
 
@@ -72,15 +114,15 @@ namespace WordFinder
             Words = new List<String>[Length];//maksymalna długość słowa to 128 znaków (if Max_length == 128)
             for (int i = 0; i < Length; i++) Words[i] = new List<String>();//inicjalizacja tablicy list (vektorów bo to c#)
             int liczba;
-            String liczbaS="";
+            String liczbaS = "";
             sentence = SR.ReadLine();// "<BIB128>"
             sentence = SR.ReadLine();
-            for (int i = 1; i < sentence.Length-1; i++) if ('>' != sentence[i]) liczbaS += sentence[i]; //dlugosc i=1 && i<.Length-1 bo liczę bez nawiasów <...>
+            for (int i = 1; i < sentence.Length - 1; i++) if ('>' != sentence[i]) liczbaS += sentence[i]; //dlugosc i=1 && i<.Length-1 bo liczę bez nawiasów <...>
             liczba = Convert.ToInt32(liczbaS);//nasz wyluskana długość słów
             LengthWord = new List<Int32>();
             LengthWord.Add(liczba);
 
-            while(sentence[0]!='#')
+            while (sentence[0] != '#')
             {
                 sentence = SR.ReadLine();
                 if (sentence[0] != '<' && sentence[0] != '#') Words[liczba - 1].Add(sentence.Trim());
@@ -94,31 +136,8 @@ namespace WordFinder
                 }
             }
 
-                SR.Close();
+            SR.Close();
 
         }
-
-        public string FindWords(String text_in)
-        {
-            String text_out=" ";
-            try
-            {
-                if (LengthWord[0] < LengthWord[1]) LengthWord.Reverse();
-            }
-            catch
-            {
-                System.Windows.MessageBox.Show("Biblioteka " + this.Name + "nie działa poprawnie.", "Mesage from Biblioteka.cs");
-            }
-            text_out = text_in.ToUpper();
-            return text_out;
-        }
-
-        public string GetName()
-        {
-            return this.Name;
-        }
-
-        //metody do pracy wewnętrznej
-
     }
 }

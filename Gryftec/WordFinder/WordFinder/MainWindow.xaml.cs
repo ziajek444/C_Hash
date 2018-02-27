@@ -104,7 +104,7 @@ namespace WordFinder
                 SR.Close();
 
                 Lbib.Add(new Biblioteka(item));
-                Lbib[index].SetBIB();//to chcemy wyeliminować
+                //Lbib[index].SetBIB();//to chcemy wyeliminować
                 //Lbib.Add() =  MD.GetLBIB(item);//item przechowuje nazwe pliku z którego chcę wyciągnąć słowa do bibliotek
 
                 index++;
@@ -129,7 +129,16 @@ namespace WordFinder
         {
             if (typed)
             {
-                MainBox.Text = BIB.FindWords(MD.formatowanieWstepne(MainBox.Text));//Usowa spacje z tekstu //Edycja
+                MainBox.Text = BIB.FindWords(MD.formatowanieWstepne(MainBox.Text));//Usowa spacje,znkai,kropki,przeciki,senetive keys z tekstu 
+                bool b_temporary = false;
+                foreach (Biblioteka b in Lbib)
+                {
+                    if (b.GetName().Equals(bibName)) { b_temporary = true;
+                    MainBox.Text = b.FindWords(MainBox.Text);
+                    }
+                }
+                //zapewnienie że metoda FindWords(string) się wykonała
+                if (!b_temporary) MessageBox.Show("There is a problem with name of library", "MainWindow");
                 CurrentText = MainBox.Text;
             }
             
@@ -142,7 +151,7 @@ namespace WordFinder
             {
                 using (StreamReader sr = new StreamReader(TitleLink.Content.ToString(), System.Text.Encoding.UTF8));
                 ErrorLink.Foreground = Brushes.Black;
-                ErrorLink.Content = "Correctly choosed language." + LISTA.SelectedItem.ToString();
+                ErrorLink.Content = "Correctly choosed language\n " + LISTA.SelectedItem.ToString();
 
                 bibName = LISTA.SelectedItem.ToString();
                 for (int i = 0; i < LISTA.Items.Count; i++)
