@@ -48,7 +48,7 @@ namespace CONSOLEpoczta
             message.To.Add("ziajkowski.marcin@gmail.com");
             message.Subject = "test";
             message.From = new System.Net.Mail.MailAddress("simciyt69@wp.pl");
-            //message.From = new System.Net.Mail.MailAddress("hyper444@wp.pl");
+            
 
             while (!correct && iterator < 100000)
             {
@@ -62,7 +62,7 @@ namespace CONSOLEpoczta
                 }
 
                 NetworkCredential basicCredential = new NetworkCredential("simcity69", haslo);
-                //NetworkCredential basicCredential = new NetworkCredential("hyper444", "SuperiorSH93");
+                
 
 
                 //smtpClient.Host = TB_Host.Text;
