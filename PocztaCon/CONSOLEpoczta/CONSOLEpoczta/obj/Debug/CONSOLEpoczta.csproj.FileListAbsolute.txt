@@ -1,0 +1,6 @@
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaCon\CONSOLEpoczta\CONSOLEpoczta\bin\Debug\CONSOLEpoczta.exe.config
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaCon\CONSOLEpoczta\CONSOLEpoczta\bin\Debug\CONSOLEpoczta.exe
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaCon\CONSOLEpoczta\CONSOLEpoczta\bin\Debug\CONSOLEpoczta.pdb
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaCon\CONSOLEpoczta\CONSOLEpoczta\obj\Debug\CONSOLEpoczta.exe
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaCon\CONSOLEpoczta\CONSOLEpoczta\obj\Debug\CONSOLEpoczta.pdb
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaCon\CONSOLEpoczta\CONSOLEpoczta\obj\Debug\CONSOLEpoczta.csprojResolveAssemblyReference.cache
