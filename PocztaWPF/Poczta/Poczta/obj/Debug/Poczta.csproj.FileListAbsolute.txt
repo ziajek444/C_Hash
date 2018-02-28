@@ -1,0 +1,13 @@
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaWPF\Poczta\Poczta\bin\Debug\Poczta.exe.config
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaWPF\Poczta\Poczta\bin\Debug\Poczta.exe
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaWPF\Poczta\Poczta\bin\Debug\Poczta.pdb
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaWPF\Poczta\Poczta\obj\Debug\Poczta.csprojResolveAssemblyReference.cache
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaWPF\Poczta\Poczta\obj\Debug\MainWindow.baml
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaWPF\Poczta\Poczta\obj\Debug\MainWindow.g.cs
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaWPF\Poczta\Poczta\obj\Debug\App.g.cs
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaWPF\Poczta\Poczta\obj\Debug\Poczta_MarkupCompile.cache
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaWPF\Poczta\Poczta\obj\Debug\Poczta.g.resources
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaWPF\Poczta\Poczta\obj\Debug\Poczta.Properties.Resources.resources
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaWPF\Poczta\Poczta\obj\Debug\Poczta.csproj.GenerateResource.Cache
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaWPF\Poczta\Poczta\obj\Debug\Poczta.exe
+D:\Dysk Google ziajkowski.marcin@gmail.com\GITREPOZYTORY\NON_REPO\PocztaWPF\Poczta\Poczta\obj\Debug\Poczta.pdb
