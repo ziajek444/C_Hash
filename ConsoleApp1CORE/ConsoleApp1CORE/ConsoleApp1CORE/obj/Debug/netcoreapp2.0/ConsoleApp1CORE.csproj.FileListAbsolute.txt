@@ -1,0 +1,11 @@
+C:\Users\Pracownik\Desktop\c plusz plusz\cplotek\Core\ConsoleApp1CORE\ConsoleApp1CORE\bin\Debug\netcoreapp2.0\ConsoleApp1CORE.deps.json
+C:\Users\Pracownik\Desktop\c plusz plusz\cplotek\Core\ConsoleApp1CORE\ConsoleApp1CORE\bin\Debug\netcoreapp2.0\ConsoleApp1CORE.runtimeconfig.json
+C:\Users\Pracownik\Desktop\c plusz plusz\cplotek\Core\ConsoleApp1CORE\ConsoleApp1CORE\bin\Debug\netcoreapp2.0\ConsoleApp1CORE.runtimeconfig.dev.json
+C:\Users\Pracownik\Desktop\c plusz plusz\cplotek\Core\ConsoleApp1CORE\ConsoleApp1CORE\bin\Debug\netcoreapp2.0\ConsoleApp1CORE.dll
+C:\Users\Pracownik\Desktop\c plusz plusz\cplotek\Core\ConsoleApp1CORE\ConsoleApp1CORE\bin\Debug\netcoreapp2.0\ConsoleApp1CORE.pdb
+C:\Users\Pracownik\Desktop\c plusz plusz\cplotek\Core\ConsoleApp1CORE\ConsoleApp1CORE\obj\Debug\netcoreapp2.0\ConsoleApp1CORE.csprojResolveAssemblyReference.cache
+C:\Users\Pracownik\Desktop\c plusz plusz\cplotek\Core\ConsoleApp1CORE\ConsoleApp1CORE\obj\Debug\netcoreapp2.0\ConsoleApp1CORE.csproj.CoreCompileInputs.cache
+C:\Users\Pracownik\Desktop\c plusz plusz\cplotek\Core\ConsoleApp1CORE\ConsoleApp1CORE\obj\Debug\netcoreapp2.0\ConsoleApp1CORE.AssemblyInfoInputs.cache
+C:\Users\Pracownik\Desktop\c plusz plusz\cplotek\Core\ConsoleApp1CORE\ConsoleApp1CORE\obj\Debug\netcoreapp2.0\ConsoleApp1CORE.AssemblyInfo.cs
+C:\Users\Pracownik\Desktop\c plusz plusz\cplotek\Core\ConsoleApp1CORE\ConsoleApp1CORE\obj\Debug\netcoreapp2.0\ConsoleApp1CORE.dll
+C:\Users\Pracownik\Desktop\c plusz plusz\cplotek\Core\ConsoleApp1CORE\ConsoleApp1CORE\obj\Debug\netcoreapp2.0\ConsoleApp1CORE.pdb
